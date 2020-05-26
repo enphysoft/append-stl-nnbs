@@ -32,7 +32,14 @@ $ make clean
 ```bash
 $ make 
 ```
-- To run
+- To run without an input file
 ```bash
 $ make run 
 ```
+In this case, append-stl-nnbs.x will read an input file of a default name, "STL_INPUT.stl", and generate  "STL_INPUT_NNBS.stl", which will include the three nearest neighbors per facet. 
+
+- To run with specified STL input file
+```bash
+$ append-stl-nnbs.x hinge.stl 
+```
+will generate "hinge_nnbs.stl". The output STL file has a postfix of "\_nnbs" before the dot and extension. 
