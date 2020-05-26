@@ -4,7 +4,7 @@ This package aims to append the three nearest neighbors to each facet of a stere
 
 ## File list
 - Source code
-  - append-stl-nnbs.f90: the main f90 program 
+  - append-stl-nnbs.f90 --- the main f90 program 
 - Library files
   - fufs.f90
   - math.f90
