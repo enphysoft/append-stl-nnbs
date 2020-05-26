@@ -1,4 +1,4 @@
-# append stl nearest neighbors (nnbs)
+# append nearest neighbors (nnbs) to a STL-format file
 ## Objective
 This package aims to append the three nearest neighbors to each facet of a stereolithography (STL) file.
 
