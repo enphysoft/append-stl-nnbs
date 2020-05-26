@@ -1,7 +1,8 @@
 # append nearest neighbors (nnbs) to a STL-format file
 ## Objective
 This package aims to append the three nearest neighbors to each facet of a stereolithography (STL) file.
-
+![Image description](regular-stl.png)
+![Image description](nnbd-stl.png)
 ## File list
 - Source code
   - **append-stl-nnbs.f90** - the main f90 program 
