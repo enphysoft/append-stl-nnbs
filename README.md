@@ -1,9 +1,8 @@
 # append nearest neighbors (nnbs) to a STL-format file
 ## Objective
 This package aims to append the three nearest neighbors to each facet of a stereolithography (STL) file.
-![regular stl file, data structure](https://github.com/enphysoft/append-stl-nnbs/blob/master/regular_stl.png)
-
-![nnbd stl file, data structure](https://github.com/enphysoft/append-stl-nnbs/blob/master/nnbd_stl.png)
+ 
+ ![nnbd stl file, data structure](https://github.com/enphysoft/append-stl-nnbs/blob/master/regular-2-nnbd-stl.png)
  
  ## File list
 - Source code
