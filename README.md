@@ -10,7 +10,7 @@ This package aims to append the three nearest neighbors to each facet of a stere
   - math.f90 - pure math functions including operator routines
   - mathstl.f90 - basic math functions for STL format and data structures
 - Make Utility 
-  - makefile - the ~makefile~ used to compile the source codes and generate an executable file, e.g., append-stl-nnbs.x
+  - makefile - the _makefile_ used to compile the source codes and generate an executable file, e.g., append-stl-nnbs.x
 - Input STL files
   - hinge.stl
   - STL_INPUT.stl
