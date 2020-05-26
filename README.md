@@ -4,13 +4,13 @@ This package aims to append the three nearest neighbors to each facet of a stere
 
 ## File list
 - Source code
-  - append-stl-nnbs.f90 -- the main f90 program 
+  - append-stl-nnbs.f90 - the main f90 program 
 - Library files
-  - fufs.f90
-  - math.f90
-  - mathstl.f90
+  - fufs.f90 - includes frequently used format styles
+  - math.f90 - pure math functions including operator routines
+  - mathstl.f90 - basic math functions for STL format and data structures
 - Make Utility 
-  - makefile
+  - makefile - the ~makefile~ used to compile the source codes and generate an executable file, e.g., append-stl-nnbs.x
 - Input STL files
   - hinge.stl
   - STL_INPUT.stl
