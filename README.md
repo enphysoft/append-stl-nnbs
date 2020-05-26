@@ -29,12 +29,11 @@ To compile
 $ make 
 ```
 To run
-$ make run
-
-To clean 
-$ make clean 
- 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+```bash
+$ make run 
 ```
+To clean 
+
+```bash
+$ make clean 
+``` 
