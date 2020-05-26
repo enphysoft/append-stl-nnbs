@@ -31,7 +31,7 @@ See the image below, where the red boxes indicate the appended information of th
 ```bash
 $ make clean 
 ``` 
-### To compile the source code **append-stl-nnbs.f90** 
+### To compile the source code *append-stl-nnbs.f90*
 ```bash
 $ make 
 ```
