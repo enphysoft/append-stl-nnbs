@@ -22,4 +22,14 @@ This package aims to append the three nearest neighbors to each facet of a stere
   - NNBfacet.dat - to list three contacting facets (i.e., nearest neighbors) to a specific facet.
   - NNBindex.dat - to list the full nearest neighbors with vertices paired. 
   - NNBlists.dat - to list the three nearest neighbors to a specific fact (with its vertex coordinates).
+  
+## Compile and run
+To compile
+$ make 
+
+To run
+$ make run
+
+To clean 
+$ make clean 
  
