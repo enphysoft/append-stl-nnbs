@@ -25,8 +25,9 @@ This package aims to append the three nearest neighbors to each facet of a stere
   
 ## Compile and run
 To compile
+```bash
 $ make 
-
+```
 To run
 $ make run
 
