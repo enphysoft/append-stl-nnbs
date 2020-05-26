@@ -2,8 +2,10 @@
 ## Objective
 This package aims to append the three nearest neighbors to each facet of a stereolithography (STL) file.
 ![regular stl file, data structure](https://github.com/enphysoft/append-stl-nnbs/blob/master/regular_stl.png)
-![Image description](nnbd-stl.png)
-## File list
+
+![nnbd stl file, data structure](https://github.com/enphysoft/append-stl-nnbs/blob/master/nnbd_stl.png)
+ 
+ ## File list
 - Source code
   - **append-stl-nnbs.f90** - the main f90 program 
 - Library files
