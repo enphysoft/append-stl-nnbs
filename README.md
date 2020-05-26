@@ -4,7 +4,7 @@ This package aims to append the three nearest neighbors to each facet of a stere
 
 ## File list
 
-append-stl-nnbs.f90                                                                                                                                        
+- append-stl-nnbs.f90                                                                                                                                        
 fufs.f90                                                                                                                                                   
 garbage                                                                                                                                                    
 hinge_nnbs.stl                                                                                                                                             
