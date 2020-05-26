@@ -24,15 +24,15 @@ This package aims to append the three nearest neighbors to each facet of a stere
   - NNBlists.dat - to list the three nearest neighbors to a specific fact (with its vertex coordinates).
   
 ## Compile and run
-- To clean 
+### To clean 
 ```bash
 $ make clean 
 ``` 
-- To compile
+### To compile
 ```bash
 $ make 
 ```
-- To run without an input file
+### To run without an input file
 ```bash
 $ make run 
 ```
@@ -42,7 +42,7 @@ $ append-stl-nnbs.x
 ```
 withtout an argument. In this case, append-stl-nnbs.x will read an input file of a default name, "STL_INPUT.stl", and generate  "STL_INPUT_NNBS.stl", which will include the three nearest neighbors per facet. 
 
-- To run with specified STL input file
+###  To run with specified STL input file
 ```bash
 $ append-stl-nnbs.x hinge.stl 
 ```
