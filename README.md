@@ -24,16 +24,15 @@ This package aims to append the three nearest neighbors to each facet of a stere
   - NNBlists.dat - to list the three nearest neighbors to a specific fact (with its vertex coordinates).
   
 ## Compile and run
-To compile
-```bash
-$ make 
-```
-To run
-```bash
-$ make run 
-```
-To clean 
-
+- To clean 
 ```bash
 $ make clean 
 ``` 
+- To compile
+```bash
+$ make 
+```
+- To run
+```bash
+$ make run 
+```
