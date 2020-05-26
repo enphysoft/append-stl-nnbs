@@ -26,12 +26,12 @@ See the image below, where the red boxes indicate the appended information of th
   - **NNBindex.dat** - to list the full nearest neighbors with vertices paired. 
   - **NNBlists.dat** - to list the three nearest neighbors to a specific fact (with its vertex coordinates).
   
-## Compile and run
+## How to compile and run
 ### To clean 
 ```bash
 $ make clean 
 ``` 
-### To compile
+### To compile the source code **append-stl-nnbs.f90** 
 ```bash
 $ make 
 ```
@@ -45,7 +45,7 @@ $ append-stl-nnbs.x
 ```
 withtout an argument. In this case, append-stl-nnbs.x will read an input file of a default name, **STL_INPUT.stl**, and generate  **STL_INPUT_NNBS.stl**, which will include the three nearest neighbors per facet. 
 
-###  To run with specified STL input file
+###  To run with a specified STL input file
 ```bash
 $ append-stl-nnbs.x hinge.stl 
 ```
