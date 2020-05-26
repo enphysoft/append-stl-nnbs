@@ -12,14 +12,14 @@ This package aims to append the three nearest neighbors to each facet of a stere
 - Make Utility 
   - makefile - the _makefile_ used to compile the source codes and generate an executable file, e.g., append-stl-nnbs.x
 - Input STL files
-  - hinge.stl
-  - STL_INPUT.stl
-- Output STL files
+  - hinge.stl - input stl-file used as the first argument, i.e., $ append-stl-nnbs.x hinge.stl, to generate hinge_nnbs.stl.
+  - STL_INPUT.stl - default input stl-file if there is no argument, i.e., $ append-stl-nnbs.x, which will generate STL_INPUT_NNBS.stl.
+- Output STL files: as explained above
   - hinge_nnbs.stl
   - STL_INPUT_NNBS.stl
 - Output Analysis files
-  - NNBcheck.dat
-  - NNBfacet.dat
-  - NNBindex.dat
-  - NNBlists.dat
+  - NNBcheck.dat - to compare two vertices, common to two edges of two contacting neighbors
+  - NNBfacet.dat - to list three contacting facets (i.e., nearest neighbors) to a specific facet.
+  - NNBindex.dat - to list the full nearest neighbors with vertices paired. 
+  - NNBlists.dat - to list the three nearest neighbors to a specific fact (with its vertex coordinates).
  
