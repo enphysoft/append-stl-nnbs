@@ -1,4 +1,4 @@
-# Stereolithography format with nearest neighbor (facet) list 
+# Stereolithography format with the nearest facet list 
 ## Objective
 This package aims to append the three nearest neighbors to each facet of a stereolithography (STL) file.
 See the image below, where the red boxes indicate the appended information of three nearest neighbors, i.e., edge-sharing neibhgor facets.
